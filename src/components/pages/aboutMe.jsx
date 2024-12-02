@@ -8,8 +8,8 @@ import CV from '../cv';
 export default function AboutMe() {
 	return (
 		<div className="font-jeko">
-			<div className="relative">
-				<div className="lg:bg-[url('/src/assets/images/about-me-page.png')] bg-[url('/src/assets/images/about-me-mobile.png')] bg-cover bg-center fixed top-0 left-0 w-full lg:h-screen h-[80vh] lg:z-[-1] flex items-center justify-center">
+			<div className=" ">
+				<div className="lg:bg-[url('/src/assets/images/about-me-page.png')] bg-[url('/src/assets/images/about-me-mobile.png')] bg-cover bg-center fixed top-0 left-0 w-full lg:h-screen h-[80vh]   flex items-center justify-center">
 					<div className="flex flex-col items-center text-center w-full pt-[100px] lg:px-0 px-[24px]">
 						<p className="lg:text-[24px] text-[16px] font-extrabold text-[#ffff]">
 							Hi, I'm Ahmad Hussein Habib
@@ -22,25 +22,21 @@ export default function AboutMe() {
 							Transforming Ideas into Exceptional Digital Experiences by 🎨
 							Designing Dreams and Coding Realities 💻
 						</p>
-						<a
-							href="#"
-							className="pt-[24px] hidden lg:block  "
-						>
-							<button className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] p-1 h-[48px] w-full text-[14px] text-[#ffffff] flex items-center px-2 ">
-								<img
-									src={whatsappbtnhero}
-									alt=""
-									className="flex justify-center items-center"
-								/>
-								<WhatsAppButton />
-							</button>
-						</a>
 
-						<div className="lg:hidden flex justify-center mt-auto py-4 w-full gap-[16px]  px-[24px]">
-							<a
-								href="#"
-								className="pt-[16px] w-[40%]"
-							>
+						<div className="pt-[24px] hidden lg:block">
+							<a>
+								<div className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] p-1 h-[48px] w-full text-[14px] text-[#ffffff] flex items-center  px-2 ">
+									<img
+										src={whatsappbtnhero}
+										alt=""
+										className="flex justify-center items-center ml-[5px]"
+									/>
+									<WhatsAppButton />
+								</div>
+							</a>
+						</div>
+						<div className="lg:hidden flex justify-center mt-auto py-4 w-full gap-[16px]   px-[24px]">
+							<a className="pt-[16px] w-[40%]">
 								<div className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] p-1 h-[48px] w-full text-[14px] text-[#ffffff] flex items-center ">
 									<img
 										src={whatsappbtnhero}
@@ -64,7 +60,7 @@ export default function AboutMe() {
 					</div>
 				</div>
 			</div>
-			<div className="relative lg:mt-[100px] mt-[80vh] lg:pt-[100vh] ">
+			<div className="relative lg:mt-[100px] mt-[80vh]  lg:pt-[100vh] ">
 				<Profile />
 				<CV />
 				<Footer />

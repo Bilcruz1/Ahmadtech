@@ -16,20 +16,14 @@ export default function Footer() {
 				<p className="lg:hidden block text-[24px] font-extrabold text-center">
 					I'm currently available for remote Product (UI/UX) Design gigs ✌️
 				</p>
-				<a
-					href="#"
-					className="w-full flex justify-center mt-[24px]"
-				>
+				<a className="w-full flex justify-center mt-[24px]">
 					<button className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] p-1 h-[48px] text-[14px] text-[#ffffff] flex items-center">
 						<img
 							src={whatsappbtnhero}
 							alt=""
 							className="flex justify-center items-center ml-[10px]"
 						/>
-						<WhatsAppButton />{' '}
-						<span className="ml-1 pr-2  text-[14px] font-extrabold">
-							Bussiness
-						</span>
+						<WhatsAppButton />
 					</button>
 				</a>
 			</div>
