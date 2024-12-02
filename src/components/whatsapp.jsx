@@ -1,13 +1,11 @@
 import React from 'react';
 
 const WhatsAppButton = () => {
-	console.log('it has opened');
 	const openWhatsApp = () => {
-		console.log('');
-		const phoneNumber = '+2348037472400'; // Replace this with the correct phone number format
-		const message = `Hey there,%0A
-I would like to make a booking. Could you please provide me with more details about room availability, pricing, and any special offers?%0A
-Thank you.`;
+		const phoneNumber = '+2348035816287'; // Replace this with the correct phone number format
+		const message = encodeURIComponent(`Hey there,
+I’m interested in your IT services. Could you share details on pricing, timelines, and how to proceed?
+Thank you.`);
 
 		const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
 

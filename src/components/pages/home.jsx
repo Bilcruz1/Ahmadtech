@@ -8,8 +8,9 @@ const Home = () => {
 	return (
 		<div className="font-jeko">
 			<HeroSection />
-			<div>
+			<div className="relative z-0">
 				<SectionTwo />
+
 				<DesignProcess />
 				<Footer />
 			</div>

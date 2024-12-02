@@ -9,7 +9,7 @@ export default function AboutMe() {
 	return (
 		<div className="font-jeko">
 			<div className=" ">
-				<div className="lg:bg-[url('/src/assets/images/about-me-page.png')] bg-[url('/src/assets/images/about-me-mobile.png')] bg-cover bg-center fixed top-0 left-0 w-full lg:h-screen h-[80vh]   flex items-center justify-center">
+				<div className="lg:bg-[url('/src/assets/images/about-me-page.png')] bg-[url('/src/assets/images/about-me-mobile.png')] bg-cover bg-center fixed top-0 left-0 w-full lg:h-screen h-[80vh] lg:z-[-1]   flex items-center justify-center">
 					<div className="flex flex-col items-center text-center w-full pt-[100px] lg:px-0 px-[24px]">
 						<p className="lg:text-[24px] text-[16px] font-extrabold text-[#ffff]">
 							Hi, I'm Ahmad Hussein Habib
@@ -60,7 +60,7 @@ export default function AboutMe() {
 					</div>
 				</div>
 			</div>
-			<div className="relative lg:mt-[100px] mt-[80vh]  lg:pt-[100vh] ">
+			<div className="relative z-0 lg:mt-[100px] mt-[80vh]  lg:pt-[100vh] ">
 				<Profile />
 				<CV />
 				<Footer />
