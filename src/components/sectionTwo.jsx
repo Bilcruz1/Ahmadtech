@@ -38,7 +38,7 @@ const projects = [
 		title: 'Legal Connect – Simplifying Legal Support',
 		description:
 			'Legal Connect is an MVP solution designed to seamlessly connect individuals seeking legal assistance with qualified legal professionals. The app simplifies access to legal support, making it easier for users to address their legal issues efficiently. Whether it’s finding the right lawyer, seeking quick advice, or managing legal consultations, Legal Connect ensures convenience and accessibility at every step.',
-		tag: 'SaaS Product - Service Aggregator',
+		tag: 'SaaS - Service Aggregator',
 		backgroundColor: '#FFEFEB',
 		images: [project3Img1, project3Img2],
 	},

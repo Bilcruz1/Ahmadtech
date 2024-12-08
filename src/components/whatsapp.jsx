@@ -15,7 +15,7 @@ Thank you.`);
 	return (
 		<button
 			onClick={openWhatsApp}
-			className="w-full h-full font-jeko flex justify-start items-center ml-2  text-[14px] font-extrabold"
+			className="font-jeko text-[14px] font-extrabold"
 		>
 			Let's talk
 		</button>

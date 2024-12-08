@@ -44,7 +44,7 @@ export default function DesignProcess() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setActiveTab(prevTab => (prevTab + 1) % tabs.length);
-		}, 30000);
+		}, 12000);
 
 		return () => clearInterval(interval);
 	}, []);
@@ -65,7 +65,7 @@ export default function DesignProcess() {
 
 	return (
 		<div className="lg:px-[80px] px-[24px] bg-[#ffff] lg:pt-[80px] pt-[40px] pb-[80px] ">
-			<h1 className="lg:text-[40px] text-[32px] bg-[url('/src/assets/icons/project-icon.svg')] bg-no-repeat pt-[10px]  font-extrabold">
+			<h1 className="lg:text-[40px] text-[32px]  pt-[10px]  font-extrabold">
 				My Design Process
 			</h1>
 			<p className="text-[16px] font-medium leading-[24px] pt-[16px] lg:w-[50%] w-full">

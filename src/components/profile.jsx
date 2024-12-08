@@ -4,7 +4,7 @@ import husseinabout from '../assets/images/hussein-about.png';
 export default function Profile() {
 	return (
 		<div>
-			<div className="flex lg:flex-row flex-col gap-[48px] lg:gap-0 justify-between w-full bg-[#ffff] lg:px-[194px] px-[24px] py-[80px]">
+			<div className="flex lg:flex-row flex-col gap-[48px] lg:gap-0 justify-between w-full bg-[#ffff] lg:px-[12%] px-[24px] py-[80px]">
 				<div className="flex justify-center items-center lg:w-[40%] w-full">
 					<p className="lg:text-[24px] text-[16px] lg:leading-[34px] leading-[26px]">
 						I am a Product Designer with over 6 years of experience specializing
@@ -21,7 +21,7 @@ export default function Profile() {
 					<img
 						src={husseinabout}
 						alt=""
-						className="h-full"
+						className="h-full object-contain"
 					/>
 				</div>
 			</div>

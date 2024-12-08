@@ -17,11 +17,11 @@ export default function Footer() {
 					I'm currently available for remote Product (UI/UX) Design gigs ✌️
 				</p>
 				<a className="w-full flex justify-center mt-[24px]">
-					<button className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] p-1 h-[48px] text-[14px] text-[#ffffff] flex items-center">
+					<button className="rounded-md cursor-pointer bg-[#FE5A34] border-[1px] border-[#FE5A34] py-[11px] px-[16px] gap-2 text-[14px] text-[#ffffff] flex items-center">
 						<img
 							src={whatsappbtnhero}
 							alt=""
-							className="flex justify-center items-center ml-[10px]"
+							className="flex justify-center items-center"
 						/>
 						<WhatsAppButton />
 					</button>

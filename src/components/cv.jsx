@@ -61,7 +61,7 @@ export default function CV() {
 	};
 
 	return (
-		<div className="flex lg:flex-row flex-col gap-[10%] bg-[#ffff] lg:px-[177px] px-[24px]">
+		<div className="flex lg:flex-row flex-col  gap-[10%] bg-[#ffff] lg:px-[12%] px-[24px]">
 			{/* Work Experience Section */}
 			<div className="lg:w-1/2 w-full pb-[32px]">
 				<h1 className="text-[32px] mb-[24px]">💼 Work Experience</h1>

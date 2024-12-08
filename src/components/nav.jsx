@@ -165,7 +165,7 @@ export default function Nav() {
 						</div>
 
 						<a href="#">
-							<button className="rounded-md cursor-pointer border-[1px] border-[#FE5A34] p-1 h-[34px] w-[95px]  text-[14px] text-[#FE5A34] lg:flex items-center hidden">
+							<button className="rounded-md cursor-pointer border-[1px] border-[#FE5A34] py-[11px] px-[16px] w-[95px]  text-[14px] text-[#FE5A34] lg:flex items-center hidden">
 								<WhatsAppButton />
 							</button>
 						</a>
