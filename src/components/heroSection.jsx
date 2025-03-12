@@ -97,7 +97,7 @@ export default function HeroSection() {
 								<div className="flex items-center gap-2">
 									<img
 										src={linkediniconhero}
-										alt=""
+										alt="linkediniconhero"
 									/>
 									<p className="text-[14px] font-medium ">Linkedin</p>
 								</div>
