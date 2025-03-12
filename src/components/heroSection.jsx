@@ -90,7 +90,7 @@ export default function HeroSection() {
 								<div className="flex items-center gap-2">
 									<img
 										src={whatsappiconhero}
-										alt=""
+										alt="whatsappiconhero"
 									/>
 									<p className="text-[14px] font-medium ">WhatsApp</p>
 								</div>
