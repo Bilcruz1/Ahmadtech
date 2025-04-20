@@ -27,8 +27,8 @@ export default function HeroSection() {
 	}, []);
 
 	return (
-		<div className="bg-cover bg-top bg-[#ffffff]  fixed top-0 left-0 w-full min-h-screen lg:z-[-1]">
-			<div className="h-screen flex flex-col  lg:justify-center justify-between lg:gap-10 pt-[80px] lg:pt-[130px]">
+		<div className="bg-cover bg-top bg-[#ffffff]   fixed top-0 left-0 w-full min-h-screen lg:z-[-1]">
+			<div className="h-screen flex flex-col  lg:justify-between justify-between lg:gap-10 pt-[80px] lg:pt-[130px] lg:pb-[8px]">
 				<div className="flex lg:flex-row flex-col-reverse lg:items-center lg:px-[80px] px-[24px]">
 					<div className="lg:w-[55%] w-full flex flex-col lg:pt-0 pt-[28px] ">
 						<p className="lg:text-[24px] text-[16px] font-extrabold text-[#000000]">
